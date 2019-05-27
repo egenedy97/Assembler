@@ -1,6 +1,6 @@
-#Assembler
+# Assembler
 
-###Simulator inputs:
+### Simulator inputs:
 1. Assembly program: The user should be able to input a program (using the supported
 instructions only) to be simulated. He should also specify its starting address (where
 the program’s first instruction should be loaded in the memory).
@@ -8,7 +8,7 @@ the program’s first instruction should be loaded in the memory).
 initially loaded in the memory. For each data item both its value and memory
 address should be specified.
 
-###Simulation and simulation outputs:
+### Simulation and simulation outputs:
  The simulator should assume a single cycle datapath
 identical to the one presented in lecture 7 (slide 5) except where it needs to be extended to
 support the extra instructions required. Your program should simulate the program
@@ -25,7 +25,7 @@ address space and that they always have the same contents).
 register 0 appropriately and make sure any attempt to modify it does not succeed.
 
 
-###Additional Features:
+### Additional Features:
 1. Building the application as a GUI application
 2. Building the application as an educational GUI application. In this case the GUI
 should include an animated diagram of the datapath illustrating how the wire values
